@@ -15,6 +15,8 @@ export default class MainContainer extends Component {
     this.headers = {
       'content-type': 'application/json',
       'accept': 'application/json',
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Request-Method': '*'
     };
 
     this.options = {
