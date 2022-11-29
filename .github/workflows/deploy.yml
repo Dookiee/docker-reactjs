@@ -22,4 +22,4 @@ jobs:
         with:
           humanitec-token: ${{ secrets.HUMANITEC_TOKEN }}
           organization: vignesh-humanitec
-          tag: latest
+          tag: v1.0
